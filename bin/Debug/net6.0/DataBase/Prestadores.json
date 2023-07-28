@@ -1,0 +1,391 @@
+{
+    "Prestaciones": [
+            {
+                "id": 0,
+                "CodEspecialidad": 68.0,
+                "DescEspecialidad": "Emergencias Medicas"
+            },
+            {
+                "id": 1,
+                "CodEspecialidad": 42.01,
+                "DescEspecialidad": "Adolescencia"
+            },
+            {
+                "id": 2,
+                "CodEspecialidad": 10.0,
+                "DescEspecialidad": "Alergia e  Inmunologia"
+            },
+            {
+                "id": 3,
+                "CodEspecialidad": 10.01,
+                "DescEspecialidad": "Alergia e Inmunologia Pediatrica"
+            },
+            {
+                "id": 4,
+                "CodEspecialidad": 11.02,
+                "DescEspecialidad": "Anatomia Patologica Broncopulmonar"
+            },
+            {
+                "id": 5,
+                "CodEspecialidad": 11.01,
+                "DescEspecialidad": "Odontologia"
+            },
+            {
+                "id": 6,
+                "CodEspecialidad": 11.0,
+                "DescEspecialidad": "Anatomia Patologica General"
+            },
+            {
+                "id": 7,
+                "CodEspecialidad": 11.03,
+                "DescEspecialidad": "Anatomia Patologica Hemolinfatica"
+            },
+            {
+                "id": 8,
+                "CodEspecialidad": 11.05,
+                "DescEspecialidad": "Anatomia Patologica Osea"
+            },
+            {
+                "id": 9,
+                "CodEspecialidad": 11.04,
+                "DescEspecialidad": "Anatomia Patologica: Citodiagnostico (papanicolau, etc.)"
+            },
+            {
+                "id": 10,
+                "CodEspecialidad": 12.0,
+                "DescEspecialidad": "Andrologia"
+            },
+            {
+                "id": 11,
+                "CodEspecialidad": 64.0,
+                "DescEspecialidad": "Audiologia"
+            },
+            {
+                "id": 12,
+                "CodEspecialidad": 13.0,
+                "DescEspecialidad": "Cardiologia"
+            },
+            {
+                "id": 13,
+                "CodEspecialidad": 13.01,
+                "DescEspecialidad": "Cardiologia Pediatrica"
+            },
+            {
+                "id": 14,
+                "CodEspecialidad": 55.01,
+                "DescEspecialidad": "Centro de Alto Rendimiento Deportivo"
+            },
+            {
+                "id": 15,
+                "CodEspecialidad": 14.16,
+                "DescEspecialidad": "Cirugia Bariatrica"
+            },
+            {
+                "id": 16,
+                "CodEspecialidad": 14.07,
+                "DescEspecialidad": "Cirugia Cardiaca Pediatrica"
+            },
+            {
+                "id": 17,
+                "CodEspecialidad": 14.06,
+                "DescEspecialidad": "Cirugia Cardiovascular"
+            },
+            {
+                "id": 18,
+                "CodEspecialidad": 14.02,
+                "DescEspecialidad": "Cirugia de Cabeza y Cuello"
+            },
+            {
+                "id": 19,
+                "CodEspecialidad": 14.03,
+                "DescEspecialidad": "Cirugia de Esofago"
+            },
+            {
+                "id": 20,
+                "CodEspecialidad": 14.04,
+                "DescEspecialidad": "Cirugia de Mano"
+            },
+            {
+                "id": 21,
+                "CodEspecialidad": 14.05,
+                "DescEspecialidad": "Cirugia de Torax"
+            },
+            {
+                "id": 22,
+                "CodEspecialidad": 37.07,
+                "DescEspecialidad": "Cirugia Dentomaxilar"
+            },
+            {
+                "id": 23,
+                "CodEspecialidad": 14.0,
+                "DescEspecialidad": "Oftalmologia"
+            },
+            {
+                "id": 24,
+                "CodEspecialidad": 14.01,
+                "DescEspecialidad": "Cirugia General Pediatrica"
+            },
+            {
+                "id": 25,
+                "CodEspecialidad": 14.12,
+                "DescEspecialidad": "Traumatologia"
+            },
+            {
+                "id": 26,
+                "CodEspecialidad": 14.1,
+                "DescEspecialidad": "Cirugia Maxilofacial"
+            },
+            {
+                "id": 27,
+                "CodEspecialidad": 14.11,
+                "DescEspecialidad": "Cirugia Neonatal"
+            },
+            {
+                "id": 28,
+                "CodEspecialidad": 14.13,
+                "DescEspecialidad": "Cirugia Oncologica"
+            },
+            {
+                "id": 29,
+                "CodEspecialidad": 14.08,
+                "DescEspecialidad": "Cirugia Plastica Reparadora"
+            },
+            {
+                "id": 31,
+                "CodEspecialidad": 15.07,
+                "DescEspecialidad": "Clinica del Viajero"
+            },
+            {
+                "id": 32,
+                "CodEspecialidad": 15.0,
+                "DescEspecialidad": "Clinica Medica"
+            },
+            {
+                "id": 33,
+                "CodEspecialidad": 53.01,
+                "DescEspecialidad": "Clinicas  y Sanatorios  para internacion"
+            },
+            {
+                "id": 34,
+                "CodEspecialidad": 53.07,
+                "DescEspecialidad": "Clinicas y Sanatorios para internacion derivados por OMINT"
+            },
+            {
+                "id": 35,
+                "CodEspecialidad": 53.08,
+                "DescEspecialidad": "Clinicas y Sanatorios para Internacion y Consultorios Externos"
+            },
+            {
+                "id": 36,
+                "CodEspecialidad": 59.0,
+                "DescEspecialidad": "Cosmetologia y Cosmiatria"
+            },
+            {
+                "id": 39,
+                "CodEspecialidad": 55.02,
+                "DescEspecialidad": "Deportologia Clinica"
+            },
+            {
+                "id": 40,
+                "CodEspecialidad": 16.0,
+                "DescEspecialidad": "Dermatologia"
+            },{
+                "id": 50,
+                "CodEspecialidad": 23.03,
+                "DescEspecialidad": "Ecografia Ginecologica"
+            },
+            {
+                "id": 51,
+                "CodEspecialidad": 36.02,
+                "DescEspecialidad": "Ecografia Obstetrica"
+            },
+            {
+                "id": 52,
+                "CodEspecialidad": 42.02,
+                "DescEspecialidad": "Ecografia Pediatrica"
+            },
+            {
+                "id": 54,
+                "CodEspecialidad": 13.03,
+                "DescEspecialidad": "Electrocardiograma"
+            },
+            {
+                "id": 55,
+                "CodEspecialidad": 13.05,
+                "DescEspecialidad": "Electrocardiograma Pediatrico"
+            },
+            {
+                "id": 56,
+                "CodEspecialidad": 18.00,
+                "DescEspecialidad": "Endocrinologia"
+            },
+            {
+                "id": 57,
+                "CodEspecialidad": 18.01,
+                "DescEspecialidad": "Endocrinologia  Pediatrica"
+            },
+            {
+                "id": 58,
+                "CodEspecialidad": 37.04,
+                "DescEspecialidad": "Endodoncia"
+            },
+            {
+                "id": 59,
+                "CodEspecialidad": 32.02,
+                "DescEspecialidad": "Endoscopia Broncopulmonar"
+            },
+            {
+                "id": 60,
+                "CodEspecialidad": 32.04,
+                "DescEspecialidad": "Endoscopia Broncopulmonar Infantil"
+            },
+            {
+                "id": 61,
+                "CodEspecialidad": 21.02,
+                "DescEspecialidad": "Endoscopia Digestiva"
+            },
+            {
+                "id": 62,
+                "CodEspecialidad": 21.04,
+                "DescEspecialidad": "Endoscopia Digestiva Pediatrica"
+            },
+            {
+                "id": 63,
+                "CodEspecialidad": 41.01,
+                "DescEspecialidad": "Endoscopia Otorrinolaringologica"
+            },
+            {
+                "id": 64,
+                "CodEspecialidad": 52.05,
+                "DescEspecialidad": "Endoscopia Urologica"
+            },
+            {
+                "id": 65,
+                "CodEspecialidad": 13.04,
+                "DescEspecialidad": "Ergometrias"
+            },
+            {
+                "id": 66,
+                "CodEspecialidad": 27.04,
+                "DescEspecialidad": "Estimulacion Temprana"
+            },
+            {
+                "id": 67,
+                "CodEspecialidad": 16.03,
+                "DescEspecialidad": "Estomatologia"
+            },
+            {
+                "id": 68,
+                "CodEspecialidad": 23.04,
+                "DescEspecialidad": "Estudios de Esterilidad y Fertilidad"
+            },
+            {
+                "id": 69,
+                "CodEspecialidad": 54.00,
+                "DescEspecialidad": "Farmacias"
+            },
+            {
+                "id": 70,
+                "CodEspecialidad": 19.00,
+                "DescEspecialidad": "Fertilidad"
+            },
+            {
+                "id": 71,
+                "CodEspecialidad": 14.14,
+                "DescEspecialidad": "Flebologia"
+            },
+            {
+                "id": 72,
+                "CodEspecialidad": 20.01,
+                "DescEspecialidad": "Foniatria"
+            },
+            {
+                "id": 73,
+                "CodEspecialidad": 20.00,
+                "DescEspecialidad": "Fonoaudiologia"
+            },
+            {
+                "id": 74,
+                "CodEspecialidad": 21.00,
+                "DescEspecialidad": "Gastroenterologia"
+            },
+            {
+                "id": 75,
+                "CodEspecialidad": 21.01,
+                "DescEspecialidad": "Gastroenterologia Pediatrica"
+            },
+            {
+                "id": 76,
+                "CodEspecialidad": 21.03,
+                "DescEspecialidad": "Gastroenterologia: Estudios Funcionales"
+            },
+            {
+                "id": 77,
+                "CodEspecialidad": 22.00,
+                "DescEspecialidad": "Genetica"
+            },
+            {
+                "id": 78,
+                "CodEspecialidad": 70.00,
+                "DescEspecialidad": "Geriatria"
+            },
+            {
+                "id": 79,
+                "CodEspecialidad": 55.00,
+                "DescEspecialidad": "Gimnasia Especializada"
+            },
+            {
+                "id": 80,
+                "CodEspecialidad": 23.00,
+                "DescEspecialidad": "Ginecologia"
+            },
+            {
+                "id": 81,
+                "CodEspecialidad": 18.02,
+                "DescEspecialidad": "Ginecologia Endocrinologica"
+            },
+            {
+                "id": 82,
+                "CodEspecialidad": 23.08,
+                "DescEspecialidad": "Ginecologia Oncologica"
+            },
+            {
+                "id": 83,
+                "CodEspecialidad": 23.01,
+                "DescEspecialidad": "Ginecologia Pediatrica y de Adolescentes"
+            },
+            {
+                "id": 85,
+                "CodEspecialidad": 24.00,
+                "DescEspecialidad": "Hematologia"
+            },
+            {
+                "id": 86,
+                "CodEspecialidad": 24.01,
+                "DescEspecialidad": "Hematologia Pediatrica"
+            },
+            {
+                "id": 87,
+                "CodEspecialidad": 34.06,
+                "DescEspecialidad": "Urologia"
+            },
+            {
+                "id": 88,
+                "CodEspecialidad": 13.06,
+                "DescEspecialidad": "Hemodinamia (Card. Intervencionista: angiografias, cateterismo)"
+            },
+            {
+                "id": 89,
+                "CodEspecialidad": 13.10,
+                "DescEspecialidad": "Hemodinamia Pediatrica (Card. Intervencionista, angiografias, cateterismos)"
+            },
+            {
+                "id": 90,
+                "CodEspecialidad": 24.02,
+                "DescEspecialidad": "Hemoterapia"
+            }
+            
+        ]
+
+}
+

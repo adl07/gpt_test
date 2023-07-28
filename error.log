@@ -1,0 +1,19 @@
+[04/07/2023 13:57:24] Unexpected character encountered while parsing value: L. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiChatGpt.Services.OpenService.respuestaDeConsulta(String json) in C:\Users\adriel\Desktop\proyectosC#\webApiClone\apiCshap\Services\OpenService.cs:line 120
+   at WebApiChatGpt.Services.OpenService.QuestionMedic(String consult) in C:\Users\adriel\Desktop\proyectosC#\webApiClone\apiCshap\Services\OpenService.cs:line 60[04/07/2023 14:22:12] Unexpected character encountered while parsing value: L. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiChatGpt.Services.OpenService.respuestaDeConsulta(String json) in C:\Users\adriel\Desktop\proyectosC#\webApiClone\apiCshap\Services\OpenService.cs:line 137
+   at WebApiChatGpt.Services.OpenService.QuestionMedic(String consult) in C:\Users\adriel\Desktop\proyectosC#\webApiClone\apiCshap\Services\OpenService.cs:line 60[04/07/2023 14:28:43] Unexpected character encountered while parsing value: L. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiChatGpt.Services.OpenService.respuestaDeConsulta(String json) in C:\Users\adriel\Desktop\proyectosC#\webApiClone\apiCshap\Services\OpenService.cs:line 121
+   at WebApiChatGpt.Services.OpenService.QuestionMedic(String consult) in C:\Users\adriel\Desktop\proyectosC#\webApiClone\apiCshap\Services\OpenService.cs:line 60

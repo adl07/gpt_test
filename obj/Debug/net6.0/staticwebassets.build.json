@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/G5UjNN42qwZ2dnIyhRvMPUIj8RnNcxjxBkU1ss+Jg8=",
+  "Source": "WebApiChatGpt",
+  "BasePath": "_content/WebApiChatGpt",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
