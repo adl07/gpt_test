@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adriel\\Desktop\\proyectosC#\\webApiClone\\apiCshap\\WebApiChatGpt.csproj": {}
+    "C:\\Users\\adriel\\Desktop\\proyectosC#\\GptTest\\WebApiChatGpt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adriel\\Desktop\\proyectosC#\\webApiClone\\apiCshap\\WebApiChatGpt.csproj": {
+    "C:\\Users\\adriel\\Desktop\\proyectosC#\\GptTest\\WebApiChatGpt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adriel\\Desktop\\proyectosC#\\webApiClone\\apiCshap\\WebApiChatGpt.csproj",
+        "projectUniqueName": "C:\\Users\\adriel\\Desktop\\proyectosC#\\GptTest\\WebApiChatGpt.csproj",
         "projectName": "WebApiChatGpt",
-        "projectPath": "C:\\Users\\adriel\\Desktop\\proyectosC#\\webApiClone\\apiCshap\\WebApiChatGpt.csproj",
+        "projectPath": "C:\\Users\\adriel\\Desktop\\proyectosC#\\GptTest\\WebApiChatGpt.csproj",
         "packagesPath": "C:\\Users\\adriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adriel\\Desktop\\proyectosC#\\webApiClone\\apiCshap\\obj\\",
+        "outputPath": "C:\\Users\\adriel\\Desktop\\proyectosC#\\GptTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adriel\\AppData\\Roaming\\NuGet\\NuGet.Config"

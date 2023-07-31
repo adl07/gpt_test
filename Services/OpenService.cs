@@ -49,7 +49,7 @@ public class OpenService : IOpenAIService
                 chat.AppendUserInput(consult);
 
                 //DECLARO EL INSTRUCTIVO DE LA PRIMERA INSTANCIA AL BOT
-                var prompt1 = "Por favor, te pido que identifiques específicamente tres elementos: la(s) especialidad(es) médica(s) en su denominación técnica, el nombre de la ciudad y el nombre del prestador médico o especialista. Por ejemplo, si se trata de un dentista, me gustaría que me proporciones la especialidad de odontología en lugar de usar el término 'dentista'. Si falta especilidad/es medicas en alguna de las combinaciones agregarle siempre el valor null. Si falta nombre del prestador médico o médico especialista en alguna de las combinaciones agregarle siempre el valor null. Responde en formato JSON mediante la creación de una lista que se llame 'Prestaciones' y contenga los objetos. Recuerda que esos 3 parametros son los que necesito para utilizarlos en mi metodo, por favor siempre identificarlos y diferenciar correctamente cuando son varias busquedas dentro de una sola consulta. Solamente responde el JSON, no agregar textos.";
+                var prompt1 = "Te solicito que identifiques solamente tres paramentros: la(s) especialidad(es) médica(s) en su denominación técnica, el nombre de la ciudad y el nombre del prestador médico o especialista. Por ejemplo, si se trata de un dentista, me gustaría que me proporciones la especialidad de odontología en lugar de usar el término 'dentista'. Si falta el parametro especilidad/es medicas en alguna de las combinaciones agregarle siempre el valor null. Si falta el parametro nombre del 'prestador' médico o médico especialista en alguna de las combinaciones agregarle siempre el valor null. No autocompletes con otros datos. Responde en formato JSON mediante la creación de una lista que se llame 'Prestaciones' y contenga los parametros con sus valores. Recuerda que esos 3 parametros son los que necesito para utilizarlos en mi metodo, por favor siempre identificarlos y diferenciar correctamente a que busqueda representa cada una, por ejemplo si se trata de una consulta: busco un en caba y un pediatra en quilmes, debes saber diferenciar que son dos busquedas dentro de una misma consulta, asi con varias combinaciones. Limitate solamente a responder el JSON, no agregar informacion.";
 
                 chat.AppendSystemMessage(prompt1);
 
@@ -59,7 +59,7 @@ public class OpenService : IOpenAIService
                 //Console.WriteLine("Respuesta del primer prompt: " + response1);
 
                 //DECLARAMOS EL INSTRUCTIVO DE LA SEGUNDA INSTANCIA AL BOT
-                var prompt2= "Verifica si el valor del parametro 'Especialidad' dentro del objeto"+response1+"se encuentra en el JSON de prestaciones llamado "+_prestaciones+". Si las especialidades se encuentran en el JSON, agrega como parametro 'Codigo' agrega el valor que tiene en 'CodEspecialidad' sino agregarle null por defecto.";
+                var prompt2= "Verifica si el valor del parametro 'Especialidad' dentro del objeto"+response1+"se encuentra en el JSON de prestaciones llamado "+_prestaciones+". Si las especialidades se encuentran en el JSON, agrega como parametro 'Codigo' y el valor que solamente tiene en 'CodEspecialidad' y no 'id', sino agregarle null por defecto al parametro 'Codigo'. Manten el mismo formato de respuesta. ";
 
                 //EN ESTA INSTANCIA LA APLICA SOBRE LA PRIMERA RESPUESTA
                 chat.AppendSystemMessage(prompt2);
@@ -105,14 +105,14 @@ public class OpenService : IOpenAIService
         foreach (JObject item in prestaciones)
         {
             especialidad = item["Especialidad"].ToString();
-            if(especialidad == "nulo")
+            if(especialidad == null)
             {
                 listadoDeResultados.Add("Verificar los datos ingresados son correctos");
             }
             else{
                 ubicacion = item["Ciudad"].ToString();
                 nombre= item["Prestador"].ToString();
-                codigo = item["Código"].ToString();
+                codigo = item["Codigo"].ToString();
 
                 resultado = textoDeConsulta(especialidad, ubicacion, nombre);
                 listadoDeResultados.Add(resultado);

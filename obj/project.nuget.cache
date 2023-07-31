@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AfbrbhDchkhWXpDcQ0coGTjaB9WPM4CPFiRxKpeGJZfNoCnjurPZZh5QtA5M3MfIP1IsqcfxFgb3PiiFPHpnDw==",
+  "dgSpecHash": "an/6jU7yw8Ff/T7nHGkrLEwgs4YcF72AflpksNYCrILXXD5AIhp7lMs8s1yPrEAYTr8F66Qcs8u6eNk7a1Wa+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adriel\\Desktop\\proyectosC#\\webApiClone\\apiCshap\\WebApiChatGpt.csproj",
+  "projectFilePath": "C:\\Users\\adriel\\Desktop\\proyectosC#\\GptTest\\WebApiChatGpt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adriel\\.nuget\\packages\\betalgo.openai\\7.0.0\\betalgo.openai.7.0.0.nupkg.sha512",
     "C:\\Users\\adriel\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
