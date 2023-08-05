@@ -30,7 +30,7 @@ public class OpenService : IOpenAIService
     }
 
     
-    public async Task<List<string>>QuestionMedic(string consult)
+    public async Task<List<string>>ConsultaDeCartilla(string consult)
     
     {   
         //SE AGREGA UN TRY&CATCH PARA CAPTURAR ALGUN ERROR QUE PUEDA DARNOS LA API DE OPEN AI AL EJECUTARSE
@@ -89,7 +89,7 @@ public class OpenService : IOpenAIService
     }
         
 
-    public List<string> respuestaDeConsulta(string json)
+    public List<string>respuestaDeConsulta(string json)
     {
         JObject jsonObject = JObject.Parse(json);
         JArray prestaciones = (JArray)jsonObject["Prestaciones"];

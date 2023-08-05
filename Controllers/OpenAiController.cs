@@ -21,10 +21,10 @@ public class OpenAiController : ControllerBase
     }
 
     [HttpPost()]
-    [Route("AskQuestion")]
-    public async Task<IActionResult> AskQuestion(string consult)
+    [Route("Consulta")]
+    public async Task<IActionResult>Consulta(string consult)
     {
-        var result = await _openAiService.QuestionMedic(consult);
+        var result = await _openAiService.ConsultaDeCartilla(consult);
         return Ok(result);
     }
     /*[HttpPost()]
